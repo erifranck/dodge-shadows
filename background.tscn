@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://characters/forest.png" type="Texture" id=1]
+
+[node name="background" type="Node2D"]
+
+[node name="forest" type="Sprite" parent="."]
+self_modulate = Color( 0.980392, 0.352941, 0.352941, 1 )
+position = Vector2( 238.962, 365.837 )
+scale = Vector2( 0.619594, 0.708593 )
+texture = ExtResource( 1 )
